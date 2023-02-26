@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main
- * return always 0 =success
+ * main - Entry function 
  * print without printf
+ * Return: always 0 =success
  */
 int main(void)
 {
