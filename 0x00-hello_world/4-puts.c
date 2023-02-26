@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-/*
- *
+/**
  * Main 
  * return always 0 =success
  * print without printf
