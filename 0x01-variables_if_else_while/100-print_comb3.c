@@ -10,9 +10,9 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		putchar(i);
 		for (j = i; j <= '9'; j++)
 		{
+			putchar(i);
 			putchar(j);
 			if (i == '9' && j == '9')
 				break;
@@ -20,8 +20,6 @@ int main(void)
 			{
 				putchar(',');
 				putchar(' ');
-				if (j != '9')
-					putchar(i);
 			}
 		}
 	}
