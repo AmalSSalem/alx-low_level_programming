@@ -5,6 +5,7 @@
  * main - your code is written here
  * @argc: arguments count
  * @argv: arguments value
+ * Return: always 0
  */
 int main(int argc, char *argv[])
 {
