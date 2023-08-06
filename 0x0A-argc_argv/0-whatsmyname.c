@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - your code is written here
@@ -7,6 +7,6 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%s", argv[0]);
+	_putchar(argv[0]);
 	return (0);
 }
