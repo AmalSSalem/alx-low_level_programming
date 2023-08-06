@@ -11,8 +11,10 @@ int main(int argc, char *argv[])
 {
 	int i;
 
-	for (i = 0; i < argc; i++)
-		printf("%d", argv[i]);
+	if (argc == 3)
+		printf("%d", atoi(argv[1]) * atoi(argv[2]));
+	else 
+		printf("Error");
 	printf("\n");
 	return (0);
 }
