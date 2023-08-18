@@ -14,9 +14,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		if (!separator || i == 0)
-			printf("%s",va_arg(list, char));
+			printf("%s", va_arg(list, char));
 		else
-			printf("%s%s",separator,va_arg(list, char));
+			printf("%s%s", separator, va_arg(list, char));
 	}
 	va_end(list);
 }
