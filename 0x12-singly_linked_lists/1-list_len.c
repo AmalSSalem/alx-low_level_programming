@@ -8,16 +8,12 @@
 size_t list_len(const list_t *h)
 {
 	size_t nodesNum;
-	list_t *pointer;
 
-	pointer = malloc(sizeof(list_t));
-	*pointer = *h;
 	nodesNum = 0;
-	while (pointer != NULL)
+	while (h != NULL)
 	{
-		pointer = pointer->next;
+		h = h->next;
 		nodesNum++;
 	}
-	free(pointer);
 	return (nodesNum);
 }
