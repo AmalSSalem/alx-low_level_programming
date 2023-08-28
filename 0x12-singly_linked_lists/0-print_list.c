@@ -22,5 +22,6 @@ size_t print_list(const list_t *h)
 		pointer = pointer->next;
 		nodesNum++;
 	}
+	free(pointer);
 	return (nodesNum);
 }
