@@ -8,20 +8,16 @@
 size_t print_list(const list_t *h)
 {
 	size_t nodesNum;
-	list_t *pointer;
 
-	pointer = malloc(sizeof(list_t));
-	*pointer = *h;
 	nodesNum = 0;
-	while (pointer != NULL)
+	while (h != NULL)
 	{
-		if (pointer->str == NULL)
+		if (h->str == NULL)
 			printf("%s\n", "[0] (nil)");
 		else
-			printf("[%d] %s\n", pointer->len, pointer->str);
-		pointer = pointer->next;
+			printf("[%d] %s\n", h->len, h->str);
+		h = h->next;
 		nodesNum++;
 	}
-	free(pointer);
 	return (nodesNum);
 }
