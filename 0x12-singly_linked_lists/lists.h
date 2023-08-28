@@ -11,6 +11,9 @@
  * @str: the string stored
  * @len: the length of a string
  * @next: pointer to next
+ *
+ * Description: singly linked list
+ * node structure
  */
 struct list
 {
