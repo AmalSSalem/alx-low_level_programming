@@ -7,7 +7,7 @@
 
 
 /**
- * list - a structure list
+ * struct list - a structure list
  * @str: the string stored
  * @len: the length of a string
  * @next: pointer to next
